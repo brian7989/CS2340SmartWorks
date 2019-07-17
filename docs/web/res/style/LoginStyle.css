@@ -153,3 +153,10 @@ Menu formatting
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 600px;
+    }
+}
