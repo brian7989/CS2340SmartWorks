@@ -18,66 +18,73 @@
     <meta http-equiv="refresh" content="600">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="res/style/LoginStyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="header">
-    <div class="logo">
-        <a href="index.jsp"><img src="res/images/SmartWorks1.1.png" alt="SmartWorks Logo" width="200" ;
-                                 height="100"></a>  <!-- Logo -->
-    </div>
 
-    <ul class="menu">
-
-        <li class="dropdown">
-            <span>Features▾</span>
-            <div class="dropdown-content">
-                <a href="#">Product Tours</a>
-                <a href="#">Packages</a>
-                <a href="#">Demos</a>
-            </div>
-        </li>
-
-        <li>
-            <a href="#Pricing">Pricing</a>  <!-- About Us -->
-        </li>
-
-        <li>
-            <a href="#Tutorials">Tutorials</a>  <!-- -->
-        </li>
-
-        <li>
-            <a href="#FAQ">FAQ</a>  <!-- -->
-        </li>
-
-        <li>
-            <a href="#AboutUs">About Us</a>  <!-- -->
-        </li>
-
-        <li>
-            <a href="index.jsp">Login</a>
-        </li>
-
+<nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
+    <a class="navbar-brand" href="WelcomeScreen.html"><img src="res/images/SmartWorks1.1.png" alt="SmartWorks Logo" width = "120"; height = "60"></a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.jsp"><span class="glyphicon glyphicon-log-in"></span>Login</a>
+      </li>
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Features
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Product Tours</a>
+        <a class="dropdown-item" href="#">Packages</a>
+        <a class="dropdown-item" href="#">Demos</a>
+      </div>
+    </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Tutorials</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">FAQs</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
     </ul>
-</div>
+  </div>
+</nav>
+<br>
 </body>
-<form method="post">
-    <div class="imgcontainer">
+
+
+<div class="container">
+<form>
+  <div class="imgcontainer">
         <img src="res/images/Avatar.png" alt="Avatar" class="avatar">
-    </div>
-    <label><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="userID" required>
-
-    <label><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="userPW" required>
-
-    <button type="login" formaction="./userLogin.jsp" value="Login">Login</button>
-    <button type="register" formaction="./userRegistration.jsp" value="Register">Register</button>
-
-    <div class="container" style="background-color:#f1f1f1">
-        <button type="button" class="cancelbtn">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <button type="submit" class="btn btn-success">Submit</button>
+  <button type="register" class="btn btn-outline-success">Register</button>
+  <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="btn btn-outline-danger" >
             <a href="index.jsp">Cancel</a>
         </button>
-        <span class="psw">Forgot <a href="ResetPass.html">password?</a></span>
+        <span class="psw"><a href="ResetPass.html">Forgot password?</a></span>
     </div>
+
 </form>
+
+
+</div>
 </html>

@@ -17,65 +17,94 @@
     <meta http-equiv="refresh" content="600">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href = "res/style/HomePage.css" rel = "stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="header">
-    <div class="logo">
-        <a href="WelcomeScreen.html"><img src="res/images/SmartWorks1.1.png" alt="SmartWorks Logo" width = "200"; height = "100"></a>  <!-- Logo -->
-    </div>
 
-    <ul class="menu">
-
-        <li class="dropdown">
-            <span >Features▾</span>
-            <div class="dropdown-content">
-                <a href="#">Product Tours</a>
-                <a href="#">Packages</a>
-                <a href="#">Demos</a>
-            </div>
-        </li>
-
-        <li>
-            <a href="#Pricing">Pricing</a>  <!-- About Us -->
-        </li>
-
-        <li>
-            <a href="#Tutorials">Tutorials</a>  <!-- -->
-        </li>
-
-        <li>
-            <a href="#FAQ">FAQ</a>  <!-- -->
-        </li>
-
-        <li>
-            <a href="#AboutUs">About Us</a>  <!-- -->
-        </li>
-
-        <li>
-            <a href="index.jsp">Login</a>
-        </li>
-
+<nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
+    <a class="navbar-brand" href="WelcomeScreen.html"><img src="res/images/SmartWorks1.1.png" alt="SmartWorks Logo" width = "120"; height = "60"></a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.jsp"><span class="glyphicon glyphicon-log-in"></span>Login</a>
+      </li>
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Features
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Product Tours</a>
+        <a class="dropdown-item" href="#">Packages</a>
+        <a class="dropdown-item" href="#">Demos</a>
+      </div>
+    </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Tutorials</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">FAQs</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
     </ul>
-</div>
+  </div>
+</nav>
+<br>
+
+
 </body>
 
-<table class="tg" align="center">
-    <tr>
-        <td class="tg-0lax">Alarm Configuration</th>
-        <td class="tg-0lax">Schedule</th>
-    </tr>
-    <tr>
-        <td class="tg-0lax">Battery Levels</td>
-        <td class="tg-0lax">Cameras</td>
-    </tr>
-    <tr>
-        <td class="tg-0lax">Floor Plan</td>
-        <td class="tg-0lax">Devices</td>
-    </tr>
-    <tr>
-        <td class="tg-0lax">Feedback</td>
-        <td class="tg-0lax">Live Chat Support</td>
-    </tr>
-</table>
+<div class="container">
+  <div class="jumbotron">
+    <h1>SmartWorks Main Menu</h1>
+    <p>Welcome to the Main Menu. Managing your Smart Home is just a click away. </p>
+  </div>
+</div>
+
+<div class="container">
+  <table class="table table-borderless" align="center">
+      <tr>
+        <td><button type = "button" class = "btn btn-light btn-lg">
+      Alarm Configuration
+   </button>
+     </td>
+        <td><button type = "button" class = "btn btn-light btn-lg">
+      Schedule
+   </button>
+    </td>
+      </tr>
+      <tr>
+        <td><button type = "button" class = "btn btn-light btn-lg">
+      Battery Levels
+   </button></td>
+        <td><button type = "button" class = "btn btn-light btn-lg">
+      Cameras
+   </button></td>
+      </tr>
+      <tr>
+        <td><button type = "button" class = "btn btn-light btn-lg">
+      Floor Plan
+   </button></td>
+        <td><button type = "button" class = "btn btn-light btn-lg">
+      Devices
+   </button></td>
+      </tr>
+      <tr>
+        <td><button type = "button" class = "btn btn-light btn-lg">
+      Feedback
+   </button></td>
+        <td><button type = "button" class = "btn btn-light btn-lg">
+      Live Chat Support
+   </button>
+</td>
+</tr>
+  </table>
+</div>
 </html>
 
