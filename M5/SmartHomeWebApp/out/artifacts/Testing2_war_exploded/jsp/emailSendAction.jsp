@@ -1,29 +1,14 @@
-<%@ page import="java.util.Properties" %>
-<%@ page import="javax.mail.Transport" %>
-<%@ page import="javax.mail.Message" %>
-<%@ page import="javax.mail.Address" %>
+<%@ page import="util.Gmail" %>
+<%@ page import="javax.mail.*" %>
 <%@ page import="javax.mail.internet.InternetAddress" %>
 <%@ page import="javax.mail.internet.MimeMessage" %>
-<%@ page import="javax.mail.Session" %>
-<%@ page import="javax.mail.Authenticator" %>
-<%@ page import="util.SHA256" %>
-<%@ page import="util.Gmail" %>
 <%@ page import="java.io.PrintWriter" %>
-
-<%--
-  Created by IntelliJ IDEA.
-  User: brian7989
-  Date: 2019-07-14
-  Time: 18:27
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ page import="java.util.Properties" %>
 <%
     String userEmail = request.getParameter("userEmail");
     String problemTitle = request.getParameter("problemTitle");
     String issueDescription = request.getParameter("issueDescription");
 
-    //TODO Change host
     String host = "http://localhost:8080/";
     String from = userEmail;
     String to = "brian.ts.lee.0907@gmail.com";
@@ -64,8 +49,7 @@
         script.close();
     };
 %>
-<%@ page contentType="text/html;charset=UTF-8" %>
-<html lang="en">
+
 <html>
 <head>
     <title> Email Successfully Sent </title>

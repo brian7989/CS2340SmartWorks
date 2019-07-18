@@ -6,7 +6,6 @@
   To change this template use File | Settings | File Templates.
 --%>
 <!doctype html>
-</html>
 <html>
 <head>
     <title> Customer Support </title>
@@ -25,6 +24,7 @@
         .header {
             position: relative;
         }
+
         #customerServiceForm {
             position: absolute;
             margin: 10% 20%;

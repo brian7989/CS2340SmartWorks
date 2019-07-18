@@ -7,7 +7,6 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html lang="en">
-<html>
 <head>
     <title> Welcome Screen </title>
     <meta charset="UTF-8"/>
@@ -30,10 +29,10 @@
     <tr>
         <td class="tg-0lax">
             <a href="./travel.jsp">Travel Mode</a>
-        </th>
+        </td>
         <td class="tg-0lax">
             <a href="./addSensor.jsp">Add Sensor</a>
-        </th>
+        </td>
     </tr>
     <tr>
         <td class="tg-0lax">

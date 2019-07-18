@@ -4,6 +4,8 @@ import util.DatabaseUtil;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 /**
  * Data Access Object for sensor
@@ -39,6 +41,33 @@ public class SensorDAO {
             pstmt.setString(1, name);
             pstmt.setString(2, type);
             pstmt.setString(3, currentUserID);
+            return pstmt.executeUpdate();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return -1;
+    }
+
+    public ResultSet viewSensor() throws SQLException {
+        String SQL = "SELECT * FROM sensor WHERE userID = ?";
+        try {
+            PreparedStatement pstmt = conn.prepareStatement(SQL);
+            pstmt.setString(1, currentUserID);
+            ResultSet rs = pstmt.executeQuery();
+            System.out.println(rs);
+            return rs;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public int setStatus(Boolean status, String deviceID) throws SQLException {
+        String SQL = "UPDATE sensor SET status = ? WHERE id = ?";
+        try {
+            PreparedStatement pstmt = conn.prepareStatement(SQL);
+            pstmt.setString(1, "false");
+            pstmt.setString(2, deviceID);
             return pstmt.executeUpdate();
         } catch (Exception e) {
             e.printStackTrace();
