@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="activation">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/WEB-INF/lib/activation.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

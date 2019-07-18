@@ -19,18 +19,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="Tomcat" level="application_server_libraries" />
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Resources/mySQLconnectorJ/mysql-connector-java-8.0.16.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="mail" level="application" />
+    <orderEntry type="library" name="activation" level="application" />
     <orderEntry type="library" name="mysql-connector-java-8.0.16" level="application" />
-    <orderEntry type="library" name="mail" level="project" />
-    <orderEntry type="library" name="activation" level="project" />
   </component>
 </module>

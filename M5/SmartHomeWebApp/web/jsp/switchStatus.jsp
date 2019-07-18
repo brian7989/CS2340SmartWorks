@@ -1,8 +1,5 @@
 <%@ page import="java.io.PrintWriter" %>
 <%@ page import="sensor.SensorDAO" %>
-<%@ page import="java.sql.PreparedStatement" %>
-<%@ page import="util.DatabaseUtil" %>
-<%@ page import="java.sql.Connection" %>
 
 <%--
   Created by IntelliJ IDEA.
@@ -11,7 +8,7 @@
   Time: 13:15
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 
 
 <%
@@ -20,11 +17,7 @@
     String deviceName = request.getParameter("deviceName");
     String userID = (String) session.getAttribute("userID");
     SensorDAO sensorDAO = new SensorDAO(userID);
-    boolean booleanStatus = false;
-    if (status.equals("1")) {
-        booleanStatus = true;
-    }
-    int result = sensorDAO.setStatus(booleanStatus, deviceID);
+    int result = sensorDAO.setStatus(status, deviceID);
     if (result == -1) {
         PrintWriter script;
         script = response.getWriter();
@@ -38,6 +31,7 @@
         script = response.getWriter();
         script.println("<script>");
         script.printf("window.alert('Successfully altered status for %s. Redirecting you to previous page.');", deviceName);
+        script.println("window.alert('Please refresh the page.');");
         script.println("history.back()");
         script.println("</script>");
         script.close();

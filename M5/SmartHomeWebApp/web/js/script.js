@@ -1,4 +1,4 @@
 //Author: Brian Lee
 $(document).ready(function(){
-    $('.header').load("../html/customHeader.html");
+    $('.my_navBar').load("../html/customHeader.html");
 });
