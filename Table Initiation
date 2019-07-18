@@ -12,6 +12,6 @@ userID varchar(20) NOT NULL,
 startTime date,
 endTime date,
 floorNumber int(11),
-status boolean,
+status boolean DEFAULT false,
 primary key(id, deviceName)
 );
