@@ -1,0 +1,17 @@
+CREATE TABLE user (
+userID varchar(20),
+userPW varchar(20),
+PRIMARY KEY(userID)
+);
+
+CREATE TABLE sensor (
+id int(11),
+deviceName varchar(15),
+deviceType varchar(15) NOT NULL,
+userID varchar(20) NOT NULL,
+startTime date,
+endTime date,
+floorNumber int(11),
+status boolean,
+primary key(id, deviceName)
+);
