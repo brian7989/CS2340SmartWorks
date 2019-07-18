@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="mail">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/WEB-INF/lib/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/WEB-INF/library/mail.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
