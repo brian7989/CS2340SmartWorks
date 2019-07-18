@@ -5,7 +5,7 @@ PRIMARY KEY(userID)
 );
 
 CREATE TABLE sensor (
-id int(11),
+id int(11) AUTO_INCREMENT,
 deviceName varchar(15),
 deviceType varchar(15) NOT NULL,
 userID varchar(20) NOT NULL,
