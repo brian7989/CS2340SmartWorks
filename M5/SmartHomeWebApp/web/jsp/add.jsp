@@ -12,11 +12,10 @@
 <%
     String deviceName = request.getParameter("deviceName");
     String deviceType = request.getParameter("deviceType");
-    String floorNumber = request.getParameter("floorNumber");
     PrintWriter script;
     String userID = (String) session.getAttribute("userID");
     SensorDAO sensorDAO = new SensorDAO(userID);
-    int result = sensorDAO.addSensor(deviceName, deviceType, floorNumber);
+    int result = sensorDAO.addSensor(deviceName, deviceType);
     if (result == 1) {
         script = response.getWriter();
         script.println("<script>");
