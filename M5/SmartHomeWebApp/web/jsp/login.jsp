@@ -5,10 +5,9 @@
   Time: 7:37 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 
 <html lang="en">
-<html>
 <head>
     <title> Welcome Dear User </title>
     <meta charset="UTF-8"/>
@@ -38,13 +37,15 @@
         <img src="../res/images/Avatar.png" alt="Avatar" class="avatar">
     </div>
     <label><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="userID" required>
+    <label>
+        <input type="text" placeholder="Enter Username" name="userID" required>
+    </label>
 
     <label><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="userPW" required>
+    <label>
+        <input type="password" placeholder="Enter Password" name="userPW" required>
+    </label>
 
     <button type="login" formaction="userLogin.jsp" value="Login">Login</button>
     <button type="register" formaction="userRegistration.jsp" value="Register">Register</button>
-
 </form>
-</html>

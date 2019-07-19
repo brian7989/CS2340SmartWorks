@@ -6,7 +6,6 @@
   To change this template use File | Settings | File Templates.
 --%>
 <!doctype html>
-</html>
 <html>
 <head>
     <title> Add Sensor </title>

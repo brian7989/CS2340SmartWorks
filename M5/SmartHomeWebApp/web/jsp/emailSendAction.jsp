@@ -10,13 +10,10 @@
     String issueDescription = request.getParameter("issueDescription");
 
     String host = "http://localhost:8080/";
-    String from = userEmail;
     String to = "brian.ts.lee.0907@gmail.com";
-    String subject = problemTitle;
-    String content = issueDescription;
 
     Properties p = new Properties();
-    p.put("mail.smtp.user", from);
+    p.put("mail.smtp.user", userEmail);
     p.put("mail.smtp.host", "smtp.googlemail.com");
     p.put("mail.smtp.port", "465");
     p.put("mail.smtp.starttls.enable", "true");
@@ -31,12 +28,12 @@
         Session ses = Session.getInstance(p, auth);
         ses.setDebug(true);
         MimeMessage msg = new MimeMessage(ses);
-        msg.setSubject(subject);
-        Address fromAddr = new InternetAddress(from);
+        msg.setSubject(problemTitle);
+        Address fromAddr = new InternetAddress(userEmail);
         msg.setFrom(fromAddr);
         Address toAddr = new InternetAddress(to);
         msg.addRecipient(Message.RecipientType.TO, toAddr);
-        msg.setContent(content, "text/html;charset=UTF8");
+        msg.setContent(issueDescription, "text/html;charset=UTF8");
         Transport.send(msg);
     } catch (Exception e) {
         e.printStackTrace();

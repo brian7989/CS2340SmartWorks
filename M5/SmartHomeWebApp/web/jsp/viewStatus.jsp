@@ -39,8 +39,6 @@
             position: absolute;
             margin: 20% 10% 10% 20%;
         }
-
-
     </style>
 </head>
 <body>
@@ -85,6 +83,6 @@
 </div>
 
 </body>
-</html>
+
 
 

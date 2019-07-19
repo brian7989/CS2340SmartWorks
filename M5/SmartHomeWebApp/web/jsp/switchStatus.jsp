@@ -3,6 +3,7 @@
 <%@ page import="java.sql.PreparedStatement" %>
 <%@ page import="util.DatabaseUtil" %>
 <%@ page import="java.sql.Connection" %>
+<%@ page import="java.sql.SQLException" %>
 
 <%--
   Created by IntelliJ IDEA.
@@ -11,7 +12,7 @@
   Time: 13:15
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 
 
 <%
@@ -24,7 +25,12 @@
     if (status.equals("1")) {
         booleanStatus = true;
     }
-    int result = sensorDAO.setStatus(booleanStatus, deviceID);
+    int result = 0;
+    try {
+        result = sensorDAO.setStatus(booleanStatus, deviceID);
+    } catch (SQLException e) {
+        e.printStackTrace();
+    }
     if (result == -1) {
         PrintWriter script;
         script = response.getWriter();
