@@ -1,10 +1,6 @@
-* {
-  color: grey;
-}
 /* Bordered form */
 form {
   border: 3px solid #f1f1f1;
-  padding: 50px;
 }
 
 /* Full-width inputs */

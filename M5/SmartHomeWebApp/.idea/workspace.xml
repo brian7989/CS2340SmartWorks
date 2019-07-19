@@ -10,19 +10,28 @@
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/alber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/alber.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/html/customHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/html/customHeader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/js/indexscript.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/js/indexscript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/HomePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/HomePage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/addSensor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/addSensor.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/emailSendAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/emailSendAction.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/support.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/jsp/support.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/res/style/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/res/style/HomePage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/res/style/LoginStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/res/style/LoginStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/res/style/AboutStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/res/style/AboutStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/res/style/customHeader.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Testing2_war_exploded/res/style/customHeader.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/html/customHeader.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/customHeader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/pricing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/html/tutorials.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/tutorials.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/indexscript.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/indexscript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/jsp/HomePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/HomePage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/jsp/Support.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/support.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/addSensor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/addSensor.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/emailSendAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/emailSendAction.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/res/style/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/style/HomePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/support.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/Support.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/jsp/viewStatus.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/jsp/viewStatus.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/res/style/AboutStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/style/AboutStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/res/style/LoginStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/style/LoginStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/res/style/customHeader.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/style/customHeader.css" afterDir="false" />
     </list>
@@ -60,48 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/html/customHeader.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/res/style/customHeader.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/html/tutorials.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-              <folding>
-                <element signature="n#style#0;n#li#0;n#ol#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#ol#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/res/style/TutorialsStyle.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/res/style/FAQStyle.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="425">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -109,26 +78,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/jsp/HomePage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/jsp/support.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-277">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="505">
+              <caret line="64" column="65" lean-forward="true" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/res/style/HomePage.css">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="335">
+              <caret line="47" column="64" lean-forward="true" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sensor/SensorDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="32" column="61" lean-forward="true" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -167,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/camera.jsp" />
         <option value="$PROJECT_DIR$/web/userLogin.jsp" />
         <option value="$PROJECT_DIR$/web/userRegistration.jsp" />
         <option value="$PROJECT_DIR$/web/script.js" />
@@ -175,7 +143,6 @@
         <option value="$PROJECT_DIR$/web/HomePage.jsp" />
         <option value="$PROJECT_DIR$/web/res/style/ResetPassStyle.css" />
         <option value="$PROJECT_DIR$/web/res/style/WelcomeStyle.css" />
-        <option value="$PROJECT_DIR$/web/js/script.js" />
         <option value="$PROJECT_DIR$/web/js/addSensorPageLoad.js" />
         <option value="$PROJECT_DIR$/web/html/addSensor.html" />
         <option value="$PROJECT_DIR$/web/jsp/welcomeUser.jsp" />
@@ -185,38 +152,40 @@
         <option value="$PROJECT_DIR$/web/jsp/userRegistration.jsp" />
         <option value="$PROJECT_DIR$/src/util/SHA256.java" />
         <option value="$PROJECT_DIR$/src/sensor/SensorDTO.java" />
-        <option value="$PROJECT_DIR$/web/jsp/addSensor.jsp" />
         <option value="$PROJECT_DIR$/src/user/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/user/UserDTO.java" />
-        <option value="$PROJECT_DIR$/web/jsp/emailSendAction.jsp" />
         <option value="$PROJECT_DIR$/src/util/Gmail.java" />
         <option value="$PROJECT_DIR$/web/jsp/view.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/userLogin.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/viewStatus.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/switchStatus.jsp" />
         <option value="$PROJECT_DIR$/src/sensor/SensorDAO.java" />
         <option value="$PROJECT_DIR$/src/util/DatabaseUtil.java" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/web/js/indexscript.js" />
         <option value="$PROJECT_DIR$/web/res/style/testStyle.css" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/res/style/pricingStyle.css" />
-        <option value="$PROJECT_DIR$/web/html/pricing.html" />
         <option value="$PROJECT_DIR$/web/res/style/PricingStyle.css" />
         <option value="$PROJECT_DIR$/web/res/style/FaqStyle.css" />
         <option value="$PROJECT_DIR$/web/js/faqscript.js" />
-        <option value="$PROJECT_DIR$/web/res/style/LoginStyle.css" />
-        <option value="$PROJECT_DIR$/web/res/style/customHeader.css" />
         <option value="$PROJECT_DIR$/web/res/style/FAQStyle.css" />
-        <option value="$PROJECT_DIR$/web/html/faq.html" />
-        <option value="$PROJECT_DIR$/web/jsp/login.jsp" />
-        <option value="$PROJECT_DIR$/web/res/style/AboutStyle.css" />
         <option value="$PROJECT_DIR$/web/html/aboutus.html" />
-        <option value="$PROJECT_DIR$/web/html/customHeader.html" />
-        <option value="$PROJECT_DIR$/web/html/tutorials.html" />
         <option value="$PROJECT_DIR$/web/res/style/TutorialsStyle.css" />
         <option value="$PROJECT_DIR$/web/res/style/HomePage.css" />
+        <option value="$PROJECT_DIR$/web/res/style/AboutStyle.css" />
+        <option value="$PROJECT_DIR$/web/jsp/Lougout.jsp" />
+        <option value="$PROJECT_DIR$/web/js/script.js" />
+        <option value="$PROJECT_DIR$/web/js/indexscript.js" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/html/pricing.html" />
+        <option value="$PROJECT_DIR$/web/html/faq.html" />
+        <option value="$PROJECT_DIR$/web/res/style/customHeader.css" />
+        <option value="$PROJECT_DIR$/web/res/style/LoginStyle.css" />
+        <option value="$PROJECT_DIR$/web/html/customHeader.html" />
+        <option value="$PROJECT_DIR$/web/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/addSensor.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/Support.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/emailSendAction.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/viewStatus.jsp" />
+        <option value="$PROJECT_DIR$/web/html/tutorials.html" />
         <option value="$PROJECT_DIR$/web/jsp/HomePage.jsp" />
       </list>
     </option>
@@ -482,7 +451,7 @@
       <workItem from="1563443278518" duration="12000" />
       <workItem from="1563443361275" duration="180000" />
       <workItem from="1563450996322" duration="554000" />
-      <workItem from="1563451581387" duration="17310000" />
+      <workItem from="1563451581387" duration="25435000" />
     </task>
     <task id="LOCAL-00001" summary="Change Log:&#10;1. Finished implementing customer service email interaction functionality&#10;2. Finished implementing add sensor to database&#10;3. Altered table setting to rid duplicates">
       <created>1563111505868</created>
@@ -502,7 +471,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90295000" />
+    <option name="totallyTimeSpent" value="98420000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -517,7 +486,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.22751679" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.22751679" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -526,8 +495,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" sideWeight="0.50212765" side_tool="true" weight="0.25274727" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info active="true" anchor="bottom" x="0" y="23" width="1536" height="801" id="Run" order="2" type="WINDOWED" visible="true" weight="0.2991851" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" x="0" y="23" width="1536" height="801" id="Run" order="2" type="WINDOWED" visible="true" weight="0.2991851" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -581,7 +550,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/camera/CameraDTO.java" />
     <entry file="file://$PROJECT_DIR$/web/customHeader.jsp" />
     <entry file="file://$PROJECT_DIR$/web/js/addSensorPageLoad.js" />
     <entry file="file://$PROJECT_DIR$/web/html/addSensor.html" />
@@ -625,13 +593,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/view.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/jsp/addSensor.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/switchStatus.jsp" />
     <entry file="file://$PROJECT_DIR$/src/sensor/SensorDTO.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -654,34 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/viewStatus.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/emailSendAction.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="27" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" selection-end-line="26" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sensor/SensorDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/user/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -692,13 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/res/style/IndexStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1581">
@@ -706,24 +632,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/indexscript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/res/style/testStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/html/pricing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -741,20 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/html/faq.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/res/style/AboutStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/html/aboutus.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -763,66 +661,6 @@
             <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="19" column="62" lean-forward="true" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/res/style/LoginStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/res/style/FAQStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/res/style/customHeader.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/html/tutorials.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ol#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ol#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/res/style/TutorialsStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/HomePage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -843,13 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/html/customHeader.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/util/Gmail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -860,20 +691,164 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/html/add_camera.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/res/style/AboutStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/Logout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/res/style/FAQStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/indexscript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/res/style/TutorialsStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/html/pricing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/html/faq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/res/style/customHeader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/addSensor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/emailSendAction.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="71" column="31" lean-forward="true" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/Support.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/viewStatus.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/res/style/LoginStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/html/tutorials.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ol#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ol#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/html/customHeader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="47" column="64" lean-forward="true" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/res/style/HomePage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="-255">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/html/add_camera.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/support.jsp">
+    <entry file="file://$PROJECT_DIR$/web/jsp/HomePage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-277">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="505">
+          <caret line="64" column="65" lean-forward="true" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sensor/SensorDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="32" column="61" lean-forward="true" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
         </state>
       </provider>
     </entry>

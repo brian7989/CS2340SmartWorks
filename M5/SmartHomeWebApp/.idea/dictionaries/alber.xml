@@ -5,7 +5,9 @@
       <w>faqscript</w>
       <w>floorplan</w>
       <w>indexscript</w>
+      <w>navbar</w>
       <w>numbertext</w>
+      <w>toggler</w>
     </words>
   </dictionary>
 </component>
