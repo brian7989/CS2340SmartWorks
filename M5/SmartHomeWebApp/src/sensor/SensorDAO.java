@@ -43,9 +43,8 @@ public class SensorDAO {
             pstmt.setInt(4, Integer.parseInt(floorNumber));
             return pstmt.executeUpdate();
         } catch (Exception e) {
-            e.printStackTrace();
+            return -1;
         }
-        return -1;
     }
 
     public ResultSet viewSensor() throws SQLException {
