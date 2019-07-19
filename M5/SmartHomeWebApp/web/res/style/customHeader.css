@@ -1,9 +1,11 @@
-
-
 .navbar {
     min-height: 80px;
 }
 
+a:link
+a:hover {
+    text-decoration: underline;
+}
 .navbar-brand {
     padding: 0 15px;
     height: 80px;
