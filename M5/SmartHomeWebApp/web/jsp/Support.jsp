@@ -5,7 +5,7 @@
   Time: 11:13 PM
   To change this template use File | Settings | File Templates.
 --%>
-<!doctype html>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
     <title> Customer Support </title>
@@ -25,8 +25,13 @@
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
+    <%--No way to resolve CSS conflict here. Causes font degradation--%>
+    <%--Bootstrap CSS --%>
     <style>
+        .header {
+            position: relative;
+        }
+
         #customerServiceForm {
             position: absolute;
             margin: 10% 20%;
@@ -35,11 +40,9 @@
     </style>
 </head>
 <body>
-
 <div class="my_navBar">
     <script src="../js/script.js"></script>
 </div>
-
 <%--Contact Form--%>
 <form id="customerServiceForm" method="post">
     <div class="form-group">
@@ -61,5 +64,13 @@
         </button>
     </div>
 </form>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
 </body>
 </html>
