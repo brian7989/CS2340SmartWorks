@@ -12,9 +12,8 @@ import java.sql.ResultSet;
  */
 public class UserDAO {
 
-    private Connection conn;
+    private final Connection conn;
     private PreparedStatement pstmt;
-    private ResultSet rs;
 
     public UserDAO() {
         conn = DatabaseUtil.getConnection();
@@ -53,7 +52,7 @@ public class UserDAO {
         try {
             pstmt = conn.prepareStatement(SQL);
             pstmt.setString(1, userID);
-            rs = pstmt.executeQuery();
+            ResultSet rs = pstmt.executeQuery();
             if (rs.next()) {
                 if (rs.getString(1).equals(userPW)) {
                     return 1;

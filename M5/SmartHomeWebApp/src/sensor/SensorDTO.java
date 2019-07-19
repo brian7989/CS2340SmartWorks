@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * Data Transfer Object for sensor
  */
-public class SensorDTO {
+class SensorDTO {
     private int id;
     private String deviceName;
     private String deviceType;

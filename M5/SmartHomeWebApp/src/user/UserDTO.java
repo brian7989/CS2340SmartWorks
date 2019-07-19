@@ -3,7 +3,7 @@ package user;
 /**
  * Data transfer object for USER table
  */
-public class UserDTO {
+class UserDTO {
     private String userID;
     private String userPW;
 

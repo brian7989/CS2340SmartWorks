@@ -8,7 +8,7 @@ import java.security.MessageDigest;
  * Use if necessary.
  * Utility for document encryption with SALT.
  */
-public class SHA256 {
+class SHA256 {
 
     public static String getSHA256(String input) {
         StringBuffer result = new StringBuffer();

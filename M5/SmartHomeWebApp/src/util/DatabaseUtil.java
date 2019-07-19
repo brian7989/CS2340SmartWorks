@@ -12,7 +12,7 @@ public class DatabaseUtil {
             //TODO Create SmartWorks database, replace credentials
             String dbURL = "jdbc:mysql://localhost:3306/smarthomeuser";
             String dbID = "root";
-            String dbPW = "mDlxotjd0907!@";
+            String dbPW = "MyPass";
             Class.forName("com.mysql.cj.jdbc.Driver");
             return DriverManager.getConnection(dbURL,dbID,dbPW);
         } catch (Exception e) {
