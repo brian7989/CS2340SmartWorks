@@ -16,9 +16,9 @@ public class SensorDAOTestJay {
     public void setUp() {
         SensorDAO sensorDAO = new SensorDAO("root");
         try {
-            result[0] = sensorDAO.setFloor("4","1");
-            result[1] = sensorDAO.setFloor("4", "40");
-            result[2] = sensorDAO.setFloor("4", "error");
+            result[0] = sensorDAO.setStatus("4","1");
+            result[1] = sensorDAO.setStatus("4", "40");
+            result[2] = sensorDAO.setStatus("4", "error");
         } catch (SQLException e) {
             e.printStackTrace();
         }
