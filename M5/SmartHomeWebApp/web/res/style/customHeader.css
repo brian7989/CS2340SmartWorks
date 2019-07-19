@@ -2,7 +2,7 @@
     min-height: 80px;
 }
 
-a:link
+a:link,
 a:hover {
     text-decoration: underline;
 }
@@ -24,15 +24,15 @@ a:hover {
 
 @media (min-width: 768px) {
     .navbar-nav > li > a {
-        padding-top: 26.5px;
-        padding-bottom: 26.5px;
+        padding-top: 27px;
+        padding-bottom: 27px;
         line-height: 27px;
     }
 }
 
 #welcomeTxt {
     font-size: 60px;
-    margin: 10% 30% 0% 30%;
+    margin: 10% 30% 0 30%;
 }
 
 .navbar-brand,
