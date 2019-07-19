@@ -15,7 +15,6 @@
     <meta name="author" content="Albert Xing">
     <meta http-equiv="refresh" content="600">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../res/style/customHeader.css" rel="stylesheet">
     <link href="../res/style/HomePage.css" rel="stylesheet">
 </head>
 <body>
@@ -28,26 +27,26 @@
 <table class="tg" align="center">
     <tr>
         <td class="tg-0lax">
-            <a href="./travel.jsp">Travel Mode</a>
+            <a href="./travel.jsp" class="myButton">Travel Mode</a>
         </td>
         <td class="tg-0lax">
-            <a href="./addSensor.jsp">Add Sensor</a>
+            <a href="./addSensor.jsp" class="myButton">Add Sensor</a>
         </td>
     </tr>
     <tr>
         <td class="tg-0lax">
-            <a href="./viewStatus.jsp">Sensor Status</a>
+            <a href="./viewStatus.jsp" class="myButton">Device Status</a>
         </td>
         <td id="camera" class="tg-0lax">
-            <a href="./addFloor.jsp">Floor Configuration</a>
+            <a href="./configureFloor.jsp" class="myButton">Configure Floor Plan</a>
         </td>
     </tr>
     <tr>
         <td class="tg-0lax">
-            <a href="./feedback.jsp">Feedback</a>
+            <a href="./feedback.jsp" class="myButton">Feedback</a>
         </td>
         <td class="tg-0lax">
-            <a href="./Support.jsp">Customer Service</a>
+            <a href="./support.jsp" class="myButton">Customer Service</a>
         </td>
     </tr>
 </table>

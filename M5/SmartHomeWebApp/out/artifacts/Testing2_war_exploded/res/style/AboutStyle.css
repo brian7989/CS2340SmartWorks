@@ -1,0 +1,38 @@
+.row1 {
+    position: absolute;
+    /*noinspection CssInvalidPropertyValue*/
+    width:-webkit-fill-available
+}
+.row2 {
+    border-style: solid;
+    border-bottom: 2px black;
+    border-right: 2px;
+    border-left: 2px;
+    position: absolute;
+    margin-top: 250px;
+    /*noinspection CssInvalidPropertyValue*/
+    width:-webkit-fill-available
+}
+/* Create two equal columns that floats next to each other */
+.column1 {
+    padding-top: 20px;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 40px;
+    background-color: #f2f2f2;
+    float: left;
+    width: 100%;
+    /*noinspection CssInvalidPropertyValue*/
+
+}
+
+.column2, .column3 {
+    padding-top: 20px;
+    text-align: -webkit-center;
+    background-color: #e5e5e5;
+    position: relative;
+    float: left;
+    width: 50%;
+    /*noinspection CssInvalidPropertyValue*/
+    height:-webkit-fill-available;
+}

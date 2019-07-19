@@ -17,7 +17,6 @@
     <meta name="author" content="Albert Xing">
     <meta http-equiv="refresh" content="600">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../res/style/customHeader.css" rel="stylesheet">
     <link href="../res/style/LoginStyle.css" rel="stylesheet">
 </head>
 <body>
@@ -36,8 +35,8 @@
     <label><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="userPW" required>
 
-    <button type="login" formaction="./jsp/userLogin.jsp" value="Login">Login</button>
-    <button type="register" formaction="./jsp/userRegistration.jsp" value="Register">Register</button>
+    <button type="login" formaction="userLogin.jsp" value="Login">Login</button>
+    <button type="register" formaction="userRegistration.jsp" value="Register">Register</button>
 
     <div class="container" style="background-color:#f1f1f1">
         <button type="button" class="cancelbtn">

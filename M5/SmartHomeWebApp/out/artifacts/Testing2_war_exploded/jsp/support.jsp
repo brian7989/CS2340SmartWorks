@@ -5,7 +5,7 @@
   Time: 11:13 PM
   To change this template use File | Settings | File Templates.
 --%>
-<!doctype html>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
     <title> Customer Support </title>
