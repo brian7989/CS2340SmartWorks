@@ -1,0 +1,32 @@
+.topFiller {
+    padding-top: 150px;
+}
+
+.FAQText {
+    position: relative;
+    padding-left: 150px;
+}
+
+.faq_question {
+    font-size: 20px;
+    position: relative;
+    padding-left: 150px;
+    margin: 0px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.faq_answer_container {
+    font-size: 20px;
+    position: relative;
+    padding-left: 150px;
+    height: 0px;
+    overflow: hidden;
+}
+
+a:link, a:visited {
+    color: grey;
+    text-decoration: none;
+}
+
